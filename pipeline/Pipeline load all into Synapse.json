@@ -40,10 +40,10 @@
 					},
 					"staging": {
 						"linkedService": {
-							"referenceName": "AzureDataLakeStorage1",
+							"referenceName": "ls_datalake",
 							"type": "LinkedServiceReference"
 						},
-						"folderPath": "adlsnycpayroll-masanori-fukuhara/dirstaging"
+						"folderPath": "adlsnycpayroll-guelcan-k/dirstaging"
 					},
 					"compute": {
 						"coreCount": 8,
