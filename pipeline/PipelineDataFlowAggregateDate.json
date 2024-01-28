@@ -20,17 +20,17 @@
 						"type": "DataFlowReference",
 						"parameters": {
 							"FiscalYear": {
-								"value": "@pipeline().parameters.FacialYear",
+								"value": "@pipeline().parameters.FiscalYear",
 								"type": "Expression"
 							}
 						}
 					},
 					"staging": {
 						"linkedService": {
-							"referenceName": "AzureDataLakeStorage1",
+							"referenceName": "ls_datalake",
 							"type": "LinkedServiceReference"
 						},
-						"folderPath": "adlsnycpayroll-masanori-fukuhara/dirstaging"
+						"folderPath": "adlsnycpayroll-guelcan-k/dirstaging"
 					},
 					"compute": {
 						"coreCount": 8,
@@ -41,7 +41,7 @@
 			}
 		],
 		"parameters": {
-			"FacialYear": {
+			"FiscalYear": {
 				"type": "int",
 				"defaultValue": 2021
 			}
