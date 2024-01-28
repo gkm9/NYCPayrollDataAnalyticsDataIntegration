@@ -2,7 +2,7 @@
 	"name": "SynapseNYC_Payroll_TITLE_MD",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSynapseAnalytics1",
+			"referenceName": "ls_synapse",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
