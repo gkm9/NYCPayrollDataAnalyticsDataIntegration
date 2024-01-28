@@ -2,7 +2,7 @@
 	"name": "historicalfiles_nycpayroll",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "ls_datalake",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -12,7 +12,7 @@
 				"type": "AzureBlobFSLocation",
 				"fileName": "nycpayroll_2020.csv",
 				"folderPath": "dirhistoryfiles",
-				"fileSystem": "adlsnycpayroll-masanori-fukuhara"
+				"fileSystem": "adlsnycpayroll-guelcan-k"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
