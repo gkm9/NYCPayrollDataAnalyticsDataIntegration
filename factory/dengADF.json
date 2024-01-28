@@ -1,0 +1,14 @@
+{
+	"name": "dengADF",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b115ef2b-8822-4914-8e3a-28e3e5b685a1",
+        	"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07""
+	}
+}
