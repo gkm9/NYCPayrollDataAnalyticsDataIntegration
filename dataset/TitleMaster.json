@@ -2,7 +2,7 @@
 	"name": "TitleMaster",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "ls_datalake",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -12,7 +12,7 @@
 				"type": "AzureBlobFSLocation",
 				"fileName": "TitleMaster.csv",
 				"folderPath": "dirpayrollfiles",
-				"fileSystem": "adlsnycpayroll-masanori-fukuhara"
+				"fileSystem": "adlsnycpayroll-guelcan-k"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
