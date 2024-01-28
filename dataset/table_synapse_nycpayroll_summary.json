@@ -2,7 +2,7 @@
 	"name": "table_synapse_nycpayroll_summary",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSynapseAnalytics1",
+			"referenceName": "ls_synapse",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
