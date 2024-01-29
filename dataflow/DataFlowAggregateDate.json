@@ -9,7 +9,7 @@
 						"referenceName": "historicalfiles_nycpayroll",
 						"type": "DatasetReference"
 					},
-					"name": "HistryFolderFromDataLake"
+					"name": "HistoryFolderFromDataLake"
 				},
 				{
 					"dataset": {
@@ -107,7 +107,7 @@
 				"     limit: 100,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> AzureSqlTable",
-				"HistryFolderFromDataLake select(mapColumn(",
+				"HistoryFolderFromDataLake select(mapColumn(",
 				"          FiscalYear,",
 				"          PayrollNumber,",
 				"          AgencyID,",
