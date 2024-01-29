@@ -1,9 +1,9 @@
 {
-	"name": "Pipeline load 2021 payroll into SQLDB",
+	"name": "Pipeline load 2021 payroll into SQL",
 	"properties": {
 		"activities": [
 			{
-				"name": "Payroll Data to SQL DB transaction table",
+				"name": "Payroll Data to SQL transaction table",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "Payroll Data to SQL DB transaction table",
+						"referenceName": "Payroll Data to SQL transaction table",
 						"type": "DataFlowReference"
 					},
 					"compute": {
