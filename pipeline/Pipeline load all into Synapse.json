@@ -53,6 +53,19 @@
 				}
 			},
 			{
+				"name": "Pipeline load Title Master to Synapse",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Pipeline load Title Master to Synapse",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
 				"name": "Pipeline load Agency Master to Synapse",
 				"type": "ExecutePipeline",
 				"dependsOn": [],
@@ -77,20 +90,8 @@
 					},
 					"waitOnCompletion": true
 				}
-			},
-			{
-				"name": "Pipeline load Title Master to Synapse",
-				"type": "ExecutePipeline",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"pipeline": {
-						"referenceName": "Pipeline load Title Master to Synapse",
-						"type": "PipelineReference"
-					},
-					"waitOnCompletion": true
-				}
 			}
+			
 		],
 		"annotations": []
 	}
