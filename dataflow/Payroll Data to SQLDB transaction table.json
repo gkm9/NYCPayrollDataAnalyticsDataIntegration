@@ -1,5 +1,5 @@
 {
-	"name": "ayroll data to SQLDB transaction table",
+	"name": Payroll data to SQLDB transaction table",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
