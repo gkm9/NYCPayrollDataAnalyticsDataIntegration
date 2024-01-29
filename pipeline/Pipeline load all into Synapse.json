@@ -7,7 +7,7 @@
 				"type": "ExecuteDataFlow",
 				"dependsOn": [
 					{
-						"activity": "Pipeline load Agency Master to Synapse1",
+						"activity": "Pipeline load Title Master to Synapse",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -79,13 +79,13 @@
 				}
 			},
 			{
-				"name": "Pipeline load Agency Master to Synapse1",
+				"name": "Pipeline load Title Master to Synapse",
 				"type": "ExecutePipeline",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "Pipeline load Agency Master to Synapse",
+						"referenceName": "Pipeline load Title Master to Synapse",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true
